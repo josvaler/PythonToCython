@@ -1,6 +1,6 @@
 #Python to Cython
 
-The code self explaint itself
+The code self explain by itself
 
 ##Two steps
 
