@@ -1,0 +1,27 @@
+echo ""
+echo "(c) DSLAND.io, 2019-2020"
+echo "    MIT License"
+echo ""
+echo "1. Starting the first test running python  no-c-main.py"
+echo "Normal python code, one file"
+echo ""
+python no-c-main.py
+echo "----| bad"
+echo ""
+echo "====================================================="
+echo "The first time you need to build the external library"
+echo "file: build.sh, do this if you did not already"
+echo "====================================================="
+echo ""
+echo "2. Now that you have the external library in" 
+echo "place lets run the optimized Cython version"
+echo "Please note the project was divided in three"
+echo "modules: config.py, pyth_triples.pyx, main.py"
+echo "Do not forget to check out the code!"
+echo ""
+python main.py 
+echo "----| 0 "
+echo ""
+echo "Amazing right?"
+echo 
+
