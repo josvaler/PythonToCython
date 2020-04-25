@@ -27,11 +27,6 @@ Normal python code, one file
 881 13.882805824279785 (Senconds)
 ----| bad
 
-=====================================================
-The first time you need to build the external library
-file: build.sh, do this if you did not already
-=====================================================
-
 2. Now that you have the external library in
 place lets run the optimized Cython version
 Please note the project was divided in three
@@ -41,4 +36,10 @@ Do not forget to check out the code!
 881 0.04847884178161621 (Seconds
 ----| 0 
 
+...
+
 Amazing right?
+
+If you  drop pyth_triples.c & pyth_triples.pyx and re-run ./runtests.sh everything will continue working.
+
+Note: You just need to run ./build.sh once or when you drop the .so library generated.
